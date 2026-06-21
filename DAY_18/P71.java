@@ -21,7 +21,7 @@ public class P71 {
 
         int start = 0;
         int end = n - 1;
-        int found = -1;
+        int found = -1; // means null bcz this is not the valid index
 
         while(start <= end) {
 

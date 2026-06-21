@@ -13,8 +13,9 @@ public class P26 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enetr the number: ");
         int n = sc.nextInt();
-        int fibo = fibonacci(n);
-        System.out.println("The fibonacci series is " + fibo);
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }
         sc.close();
     }
 }

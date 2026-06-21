@@ -9,8 +9,8 @@ public class P16 {
         int end = sc.nextInt();
 
         for (int i = start; i <= end; i++) {
-            int n = i;
-            int original = n;
+            int n = i; // for making the copy of original number
+            int original = n; // if n directly used it will become 0
             int sum = 0;
             while (n > 0) {
                 int digit = n % 10;
