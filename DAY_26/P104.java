@@ -24,7 +24,8 @@ public class P104 {
         int score = 0;
         for (int i = 0; i < questions.length; i++) {
             System.out.println(questions[i]);
-            String userAnswer = sc.next();
+            String userAnswer = sc.next();// For your quiz, the user enters only one word or one character that's why we
+                                          // are using next() method instead of nextLine() method.
 
             if (userAnswer.equalsIgnoreCase(answers[i])) {
                 System.out.println("Correct Answer!");
